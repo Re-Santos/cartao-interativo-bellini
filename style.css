@@ -22,3 +22,17 @@ main{
     margin-left: 19%;
     box-shadow: 8px 8px 10px palevioletred;
 }
+.legenda{
+    margin-top:4%;
+    margin-bottom: 4%;
+    color:white;
+    font-size: 15px;
+}
+.legenda h2{
+    color:lightpink;
+}
+.legenda p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    margin-bottom:5%;
+}
