@@ -36,3 +36,30 @@ main{
     font-weight: 200;
     margin-bottom:5%;
 }
+.btn-contatos{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4;
+    gap: 10px;
+    
+} 
+.btn-1, .btn-2, .btn-3, .btn-4{
+    height: 40px;
+    border-radius: 10px;
+    width: 60vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 15px;
+    cursor:pointer;
+} 
+
+ .btn{
+    color:purple;
+    font-family: "montserrat";
+    text-decoration: none;
+    border: 2px solid #ff7675;
+    text-transform: uppercase;
+    transition: 1s all ease;
+} 
