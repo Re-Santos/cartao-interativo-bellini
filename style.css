@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.content{
+    background-color: #4F4F4F;
+    /* padding: 80px 180px 80px 100px;   */
+    height: 100vh;
+    width: 100vw; 
+}
+main{
+    display:block;
+    text-align: center;
+    background-color: #4F4F4F;
+}
+.logo img{
+    width: 200px;
+    border-radius: 200px;
+    margin-top: 100px;
+    margin-left: 19%;
+    box-shadow: 8px 8px 10px palevioletred;
+}
+.legenda{
+    margin-top:4%;
+    margin-bottom: 4%;
+    color:white;
+    font-size: 15px;
+}
+.legenda h2{
+    color:lightpink;
+}
+.legenda p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    margin-bottom:5%;
+}
+.btn-contatos{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4;
+    gap: 10px;
+    
+} 
+.btn-1, .btn-2, .btn-3, .btn-4{
+    height: 40px;
+    border-radius: 10px;
+    width: 60vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 15px;
+    cursor:pointer;
+} 
+
+ .btn{
+    color:purple;
+    font-family: "montserrat";
+    text-decoration: none;
+    border: 2px solid #ff7675;
+    text-transform: uppercase;
+    transition: 1s all ease;
+} 
+
+@media(min-width:1200px) {
+    body{
+        background-color: white;
+    }
+    .content{
+        background-color: #4F4F4F;
+        /* padding: 80px 180px 80px 100px;   */
+        height: 100vh;
+        width: 100vw; 
+        border: 2px solid purple;
+       
+    }
+  
+    .logo{
+        /* display: flex;
+        justify-content: center; */
+         margin-left: 32%;
+    }
+    .logo img{
+        width: 200px;
+        border-radius: 200px;
+        margin-top: 5%;
+        margin-left: 18%;
+        box-shadow: 8px 8px 10px palevioletred;
+        margin-bottom: -5%;
+    }
+    .legenda{
+        display:block;
+        justify-content: center;
+        margin-top:4%;
+        margin-bottom: -2%;
+        color:white;
+        font-size: 15px;
+    }
+    .btn-1, .btn-2, .btn-3, .btn-4{
+        width: 15vw;
+        height: 40px;
+        border-radius: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 200;
+        font-size: 15px;
+        cursor:pointer;
+    } 
+    
+     .btn{
+        color:purple;
+        font-family: "montserrat";
+        text-decoration: none;
+        border: 2px solid #ff7675;
+        text-transform: uppercase;
+        transition: 1s all ease;
+    } 
+    .btn:hover{
+        background-color: rgb(253, 44, 253);
+        color:black;
+    }
+    }
